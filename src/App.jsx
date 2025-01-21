@@ -14,7 +14,7 @@ function App() {
       <h1 className="text-3xl font-bold text-center">
         Match Maker
       </h1>
-      <div>
+      <div className="dm-sans-regular">
         <NavBar></NavBar>
         <Banner></Banner>
         <FeatureBox></FeatureBox>
