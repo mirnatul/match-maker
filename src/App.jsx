@@ -7,6 +7,8 @@ import Article from './components/Article/Article';
 import FindYourLove from "./components/FindYourLove/FindYourLove"
 import Footer from "./components/Footer/Footer"
 
+// UI credit: dribble.com -- lazy kar
+
 function App() {
 
   return (

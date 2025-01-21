@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <div className='bg-black'>
             <footer className="max-w-7xl mx-auto text-neutral-content pt-14 px-10">
-                <div className='grid md:grid-cols-3 gap-4 items-center justify-center'>
-                    <aside className='text-center md:text-left'>
+                <div className='grid lg:grid-cols-3 gap-4 items-center justify-center'>
+                    <aside className='text-center lg:text-left'>
                         <h1 className='font-medium text-4xl bebas-neue-regular tracking-wider'><span className='text-[#ffbabf]'>Match</span>Maker</h1>
                     </aside>
                     <nav className='flex gap-6 justify-center'>
@@ -14,7 +14,7 @@ const Footer = () => {
                         <a className='text-sm' href="">Blog</a>
                     </nav>
                     <nav className=''>
-                        <div className="flex gap-5 justify-center md:justify-end">
+                        <div className="flex gap-5 justify-center lg:justify-end">
                             <a className='border rounded-full p-2'>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ const Footer = () => {
                         </div>
                     </nav>
                 </div>
-                <aside className="text-center mt-12 md:mt-16 pb-6 text-sm">
+                <aside className="text-center mt-12 lg:mt-16 pb-6 text-sm">
                     <p>Copyright © {new Date().getFullYear()} MatchMaker platform. All right reserved.</p>
                 </aside>
             </footer>
