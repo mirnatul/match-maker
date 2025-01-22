@@ -31,7 +31,7 @@ const Article = () => {
             <div className='text-center mt-4'>
                 <p>We committed to helping singles find love every day and we are <br /> confident in our ability to do so. Enharmony matches single</p>
             </div>
-            <div className='grid lg:grid-cols-3 gap-2 px-1 justify-center mt-8 mb-6'>
+            <div className='grid lg:grid-cols-3 gap-2 px-1 justify-center mt-8 mb-8'>
                 {
                     articles.map(article => <SingleArticle article={article}></SingleArticle>)
                 }
