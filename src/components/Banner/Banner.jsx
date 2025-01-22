@@ -3,9 +3,9 @@ import React from 'react';
 const Banner = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold text-center">
-                Banner
-            </h1>
+            <p className="text-5xl font-bold text-center">
+                Find Your <span className='text-[#ffccca]'>Real Connections</span>
+            </p>
         </div>
     );
 };

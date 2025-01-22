@@ -2,10 +2,9 @@ import React from 'react';
 
 const UserReview = () => {
     return (
-        <div>
-            <h1 className="text-3xl font-bold text-center">
-                UserReview
-            </h1>
+        <div className='lg:my-20'>
+            <p className="text-5xl font-bold text-center">
+                What Our<span className='text-[#ffccca]'>Users Say</span>            </p>
         </div>
     );
 };

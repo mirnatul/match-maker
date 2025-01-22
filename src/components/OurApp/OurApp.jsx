@@ -2,10 +2,10 @@ import React from 'react';
 
 const OurApp = () => {
     return (
-        <div>
-            <h1 className="text-3xl font-bold text-center">
-                OurApp
-            </h1>
+        <div className='lg:my-20'>
+            <p className="text-5xl font-bold text-center">
+                How Our App <span className='text-[#ffccca]'>Work?</span>
+            </p>
         </div>
     );
 };

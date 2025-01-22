@@ -3,9 +3,7 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold text-center">
-                NavBar
-            </h1>
+            <h1 className='font-medium text-4xl bebas-neue-regular tracking-wider text-center'><span className='text-[#ffbabf]'>Match</span>Maker</h1>
         </div>
     );
 };
