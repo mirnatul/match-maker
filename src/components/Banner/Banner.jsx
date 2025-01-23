@@ -4,7 +4,7 @@ import bannerImg from '../../assets/banner-pic.png';
 const Banner = () => {
 
     return (
-        <div className='max-w-7xl mx-auto mb-20'>
+        <div className='max-w-7xl mx-auto'>
             <div className="bg-white flex flex-col items-center px-4 sm:px-6 lg:px-8">
                 <div className="max-w-2xl space-y-6 text-center">
                     <div>
