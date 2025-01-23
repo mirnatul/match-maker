@@ -25,7 +25,7 @@ const Article = () => {
 
     return (
         <div className='lg:my-20 my-8 max-w-7xl mx-auto'>
-            <p className="text-5xl font-bold text-center">
+            <p className="text-4xl lg:text-5xl font-bold text-center">
                 Our <span className='text-[#ffccca]'>Aritcles & Tips</span> Update
             </p>
             <div className='text-center mt-4'>
