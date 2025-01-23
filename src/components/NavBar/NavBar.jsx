@@ -26,7 +26,7 @@ const NavBar = () => {
 
                 {/* <div className="text-end md:hidden"><RxHamburgerMenu className="text-2xl hover:text-3xl transition duration-700"></RxHamburgerMenu></div> */}
                 <div className="dropdown dropdown-bottom dropdown-end md:hidden">
-                    <div tabIndex={0} role="button" className="btn m-1 bg-pink-100"><div className="text-end md:hidden"><RxHamburgerMenu className="text-2xl hover:text-3xl transition duration-700"></RxHamburgerMenu></div></div>
+                    <div tabIndex={0} role="button" className="btn m-1 bg-pink-100 hover:bg-[#ff9e9a]"><div className="text-end md:hidden"><RxHamburgerMenu className="text-2xl"></RxHamburgerMenu></div></div>
                     <ul tabIndex={0} className="dropdown-content menu bg-pink-100 rounded-sm z-[1] w-52 p-2 shadow">
                         {
                             all.map(all => <li><a>{all}</a></li>)
