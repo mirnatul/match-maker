@@ -8,7 +8,7 @@ const NavBar = () => {
 
 
     return (
-        <nav className="bg-white shadow-md py-0 flex items-center h-[70px] border-[3px] border-black">
+        <nav className="bg-white py-0 flex items-center h-[70px] border-[3px] border-black">
             <div className="md:flex items-center pr-6 relative h-full hidden">
                 {leftNavLink.map((item, index) => (
                     <a
