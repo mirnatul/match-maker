@@ -7,7 +7,7 @@ const OurApp = () => {
             <div className='grid lg:grid-cols-3 max-w-7xl mx-auto'>
                 <div className='col-span-2 z-10'>
                     <p className="text-4xl md:text-5xl font-bold mb-8">
-                        How Our App <span className='text-[#ffccca]'>Work?</span>
+                        How Our App <span className='text-[#ffc7cb]'>Work?</span>
                     </p>
                     <p className='max-w-[520px]'>
                         We committed to helping singles find love every day and we are confident in our ability to do so. eharmony matches single women and men for lasting and fulfilling relationships.

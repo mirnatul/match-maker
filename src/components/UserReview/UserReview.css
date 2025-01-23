@@ -3,11 +3,16 @@
     /* Force removal of top positioning */
     bottom: 0 !important;
     /* Force the progress bar to the bottom */
-    height: 5px;
+    height: 3px;
     /* Adjust the height if needed */
 }
 
 .mySwiper .swiper-pagination-progressbar-fill {
-    background-color: #ff8a86;
+    background-color: #ffa3a0;
     /* Customize the progress bar color */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ffa3a0;
 }

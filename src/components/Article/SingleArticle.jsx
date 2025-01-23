@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const SingleArticle = ({ article }) => {
     return (
-        <div className='border-2 border-black max-w-[410px] p-3'>
+        <div className='border-2 border-black max-w-[410px] p-3 body'>
             <img className='h-[350px] w-full' src={article.photoUrl} alt="" />
             <p className='my-2 font-bold text-xl'>{article.title}</p>
             <p className='my-2'>{article.description}</p>

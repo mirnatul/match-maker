@@ -1,6 +1,6 @@
 import React from 'react';
 import SingleArticle from './SingleArticle';
-import './Article'
+import './Article.css'
 
 const Article = () => {
 
@@ -26,12 +26,12 @@ const Article = () => {
     return (
         <div className='lg:my-20 my-8 max-w-7xl mx-auto'>
             <p className="text-4xl lg:text-5xl font-bold text-center">
-                Our <span className='text-[#ffccca]'>Aritcles & Tips</span> Update
+                Our <span className='text-[#ffc7cb]'>Aritcles & Tips</span> Update
             </p>
             <div className='text-center mt-4'>
                 <p>We committed to helping singles find love every day and we are <br /> confident in our ability to do so. Enharmony matches single</p>
             </div>
-            <div className='grid lg:grid-cols-3 gap-2 px-1 justify-center mt-8 mb-8'>
+            <div className='grid lg:grid-cols-3 gap-3 px-1 justify-center mt-8 mb-8'>
                 {
                     articles.map(article => <SingleArticle article={article}></SingleArticle>)
                 }
