@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurApp = () => {
     return (
-        <div className='lg:my-20 bg-[#fcfcbb] px-2 md:py-28 py-12'>
+        <div className='lg:my-20 bg-[#fcfcbb] px-2 md:py-28 py-12 overflow-hidden'>
 
             <div className='grid lg:grid-cols-3 max-w-7xl mx-auto'>
                 <div className='col-span-2 z-10'>

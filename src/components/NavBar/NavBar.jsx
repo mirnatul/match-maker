@@ -9,7 +9,7 @@ const NavBar = () => {
 
     return (
         <nav className="bg-white py-0 flex items-center h-[80px] border-[3px] border-black">
-            <div className="md:flex items-center pr-6 relative h-full hidden">
+            <div className="lg:flex items-center pr-6 relative h-full hidden">
                 {leftNavLink.map((item, index) => (
                     <a
                         key={index}
@@ -21,10 +21,10 @@ const NavBar = () => {
 
             </div>
 
-            <div className="ml-2 md:ml-0 md:flex-1 md:text-center md:relative md:h-full flex justify-between mr-2 items-center md:justify-center w-full">
+            <div className="ml-2 lg:ml-0 lg:flex-1 lg:text-center lg:relative lg:h-full flex justify-between mr-2 items-center lg:justify-center w-full">
                 <h1 className='font-medium text-4xl bebas-neue-regular tracking-wider'><span className='text-[#ffc7cb]'>Match</span>Maker</h1>
-                <div className="dropdown dropdown-bottom dropdown-end md:hidden">
-                    <div tabIndex={0} role="button" className="btn m-1 bg-pink-100 hover:bg-[#ffc7cb]"><div className="text-end md:hidden"><RxHamburgerMenu className="text-2xl"></RxHamburgerMenu></div></div>
+                <div className="dropdown dropdown-bottom dropdown-end lg:hidden">
+                    <div tabIndex={0} role="button" className="btn m-1 bg-pink-100 hover:bg-[#ffc7cb]"><div className="text-end lg:hidden"><RxHamburgerMenu className="text-2xl"></RxHamburgerMenu></div></div>
                     <ul tabIndex={0} className="dropdown-content menu bg-pink-100 rounded-sm z-[1] w-52 p-2 shadow">
                         {
                             all.map(all => <li className="border-b-2 border-pink-400 hover:bg-pink-400 hover:text-white hover:font-bold"><a className="py-4 px-6">{all}</a></li>)
@@ -33,11 +33,11 @@ const NavBar = () => {
                 </div>
             </div>
 
-            <div className="md:flex items-center h-full hidden pl-6">
+            <div className="lg:flex items-center h-full hidden pl-6">
                 {rightNavLink.map((item, index) => (
                     <a
                         key={index}
-                        className="text-black font-bold bg-[#ffbabf] first:bg-[#ffd8db] transition duration-200  border-l-[3px] border-black h-full flex items-center justify-center w-24 lg:w-32"
+                        className="text-black font-bold bg-[#ffbabf] first:bg-[#ffe3e5] transition duration-200  border-l-[3px] border-black h-full flex items-center justify-center w-24 lg:w-[192px]"
                     >
                         {item}
                     </a>
