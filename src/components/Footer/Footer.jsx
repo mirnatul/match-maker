@@ -6,7 +6,7 @@ const Footer = () => {
             <footer className="max-w-7xl mx-auto text-neutral-content pt-14 px-10">
                 <div className='grid lg:grid-cols-3 gap-4 items-center justify-center'>
                     <aside className='text-center lg:text-left'>
-                        <h1 className='font-medium text-4xl bebas-neue-regular tracking-wider'><span className='text-[#ffc7cb]'>Match</span>Maker</h1>
+                        <h1 className='font-medium text-3xl lg:text-4xl bebas-neue-regular tracking-wider'><span className='text-[#ffc7cb]'>Match</span>Maker</h1>
                     </aside>
                     <nav className='flex gap-6 justify-center'>
                         <a className='text-sm' href="">Chat</a>

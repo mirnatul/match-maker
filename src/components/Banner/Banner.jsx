@@ -13,7 +13,7 @@ const Banner = () => {
                 <div className="bg-white flex flex-col items-center px-4 sm:px-6 lg:px-8">
                     <div className="max-w-2xl space-y-6 text-center">
                         <div>
-                            <p className="mt-12 text-4xl md:text-5xl font-bold text-center">
+                            <p className="mt-12 text-3xl md:text-5xl font-bold text-center">
                                 Find Your <span className='text-[#ffc7cb]'>Real Connections</span>
                             </p>
                             <p className="mt-2 text-center text-sm text-slate-600">

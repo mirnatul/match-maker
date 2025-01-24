@@ -25,7 +25,7 @@ const UserReview = () => {
     return (
         <div className='my-24 max-w-7xl mx-auto'>
             <div className='flex items-center'>
-                <p className="text-4xl md:text-5xl font-bold pl-2">
+                <p className="text-3xl md:text-5xl font-bold pl-2">
                     What Our <span className='text-[#ffc7cb]'>Users Say</span>
                 </p>
                 <img className='w-[40px] md:w-[50px] ml-6 md:ml-10' src="https://i.ibb.co.com/tqbk97P/vecteezy-star-shape-icon-9266315.png" alt="" />

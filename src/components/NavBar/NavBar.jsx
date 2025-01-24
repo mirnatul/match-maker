@@ -22,7 +22,7 @@ const NavBar = () => {
             </div>
 
             <div className="ml-2 lg:ml-0 lg:flex-1 lg:text-center lg:relative lg:h-full flex justify-between mr-2 items-center lg:justify-center w-full">
-                <h1 className='font-medium text-4xl bebas-neue-regular tracking-wider'><span className='text-[#ffc7cb]'>Match</span>Maker</h1>
+                <h1 className='font-medium text-3xl lg:text-4xl bebas-neue-regular tracking-wider'><span className='text-[#ffc7cb]'>Match</span>Maker</h1>
                 <div className="dropdown dropdown-bottom dropdown-end lg:hidden">
                     <div tabIndex={0} role="button" className="btn m-1 bg-pink-100 hover:bg-[#ffc7cb]"><div className="text-end lg:hidden"><RxHamburgerMenu className="text-2xl"></RxHamburgerMenu></div></div>
                     <ul tabIndex={0} className="dropdown-content menu bg-pink-100 rounded-sm z-[1] w-52 p-2 shadow">

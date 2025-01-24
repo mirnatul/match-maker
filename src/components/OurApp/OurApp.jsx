@@ -6,7 +6,7 @@ const OurApp = () => {
 
             <div className='grid lg:grid-cols-3 max-w-7xl mx-auto'>
                 <div className='col-span-2 z-10'>
-                    <p className="text-4xl md:text-5xl font-bold mb-8">
+                    <p className="text-3xl md:text-5xl font-bold mb-8">
                         How Our App <span className='text-[#ffc7cb]'>Work?</span>
                     </p>
                     <p className='max-w-[520px]'>
