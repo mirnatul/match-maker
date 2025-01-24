@@ -1,6 +1,8 @@
 # Match Maker - Landing Page
 
-![Match Maker](https://match-maker-mirnatul.netlify.app/)
+## 🌐 Live Demo
+
+Check out the live version of the project here: [Match Maker](https://match-maker-mirnatul.netlify.app/)
 
 Welcome to **Match Maker**, a beautifully designed landing page created to captivate users and provide an excellent first impression. The project showcases modern design principles combined with the power of React.js and Tailwind CSS for seamless performance and interactivity.
 
@@ -18,3 +20,22 @@ Welcome to **Match Maker**, a beautifully designed landing page created to capti
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **Netlify**: For deployment and hosting.
 - **Modern Design Principles**: To ensure a clean and professional look.
+
+## 📂 Folder Structure
+
+src/
+├── components/     # Reusable components
+├── assets/         # Images, fonts, and other assets
+├── images/         # All the static images are here
+├── App.jsx         # Main app component
+├── index.html      # Entry point
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
+
+## 🛠️ Author
+
+Mirnatul - https://github.com/mirnatul
+
+## ⭐ Don't forget to star the repo if you like this project!
