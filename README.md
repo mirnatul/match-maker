@@ -23,11 +23,11 @@ Welcome to **Match Maker**, a beautifully designed landing page created to capti
 
 ## 📂 Folder Structure
 
-src/
-├── components/     # Reusable components
-├── assets/         # Images, fonts, and other assets
-├── images/         # All the static images are here
-├── App.jsx         # Main app component
+src/  
+├── components/     # Reusable components  
+├── assets/         # Images, fonts, and other assets  
+├── images/         # All the static images are here  
+├── App.jsx         # Main app component  
 ├── index.html      # Entry point
 
 ## 🤝 Contributing
