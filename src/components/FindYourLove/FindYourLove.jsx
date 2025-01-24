@@ -5,7 +5,7 @@ const FindYourLove = () => {
         <div className='lg:my-20'>
             <div className='grid lg:grid-cols-6 lg:h-[610px]'>
                 <div className='col-span-2 flex justify-center md:justify-end items-center -mb-12'>
-                    <div style={{ boxShadow: '10px 10px' }} className='relative border-2 border-black max-w-[460px] text-center md:w-[512px] px-8 py-12 -mr-44 z-10 bg-white'>
+                    <div style={{ boxShadow: '10px 10px' }} className='relative border-2 border-black max-w-[460px] text-center lg:text-left md:w-[512px] px-8 py-12 -mr-44 z-10 bg-white'>
                         <img className='absolute top-0 right-0 -mt-16 mr-28 -rotate-12 lg:w-[100px] w-[0]' src="https://i.ibb.co.com/BzCMsbG/location-pin-circular-red-b.png" alt="location-pin-circular-red-b" border="0" />
                         <h2 className='text-3xl md:text-5xl font-bold'><span className='text-[#ffc7cb]'>Find</span> Your Love</h2>
                         <p className='my-4'>There's plenty of advice out there on how to get over a breakup, but what about those situations in which you have to let go of someone you. There's plenty of advice out there on how to get over a breakup...</p>
