@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-Check out the live version of the project here: [Match Maker](https://match-maker-mirnatul.netlify.app/)
+Check out the live version of the project here: [Match Maker](https://matchmaker-mirnatul.netlify.app/)
 
 Welcome to **Match Maker**, a beautifully designed landing page created to captivate users and provide an excellent first impression. The project showcases modern design principles combined with the power of React.js and Tailwind CSS for seamless performance and interactivity.
 
